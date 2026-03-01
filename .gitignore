@@ -1,0 +1,25 @@
+# Python виртуальное окружение
+venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Логи
+*.log
+django.log
+security.log
+debug.log
+
+# Секреты / окружение
+.env
+
+# Базы данных
+db.sqlite3
+
+# Загружаемые медиа-файлы
+media/
