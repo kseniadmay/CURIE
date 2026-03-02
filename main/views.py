@@ -48,7 +48,7 @@ class CatalogView(TemplateView):
         query = self.request.GET.get('q')
         if query:
             products = products.filter(
-                Q(title__icontains=query) | Q(description__icontains=query)
+                Q(name__icontains=query) | Q(description__icontains=query)
             )
 
         filter_params = {}
